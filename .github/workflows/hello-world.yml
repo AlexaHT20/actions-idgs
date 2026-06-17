@@ -1,0 +1,9 @@
+name: Hello World Actions
+onAndo probando actions  dxd: [push]
+jobs: 
+    hello-world-actions:
+      runs-on: ubuntu-latest
+      steps:
+            - run: echo "Hello World!!!"
+            - run: echo "Ya tengo hambre"
+            - run: echo "Quiero comer tacos"
