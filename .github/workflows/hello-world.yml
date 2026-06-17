@@ -7,3 +7,11 @@ jobs:
             - run: echo "Hello World!!!"
             - run: echo "Ya tengo hambre"
             - run: echo "Quiero comer tacos"
+            - name: crea unos archivos
+              run: touch file1.txt
+            - name: guarda el listado de archivos
+              run: ls -al > filel.txt
+            - run: echo "Agrego una linea a file2.txt" >> file2.txt
+            - run: cat file2.txt
+            - run: ls -al
+
